@@ -1,0 +1,2 @@
+- name: iptables off
+  service: name=iptables state=stopped

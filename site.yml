@@ -1,0 +1,11 @@
+---
+- name: Install rbenv and rails. For dev-server
+  hosts: rails-server
+  user: root
+  # remote_user: user
+  # sudo: yes
+
+  roles:
+    - common
+    - rbenv
+    - rails 
